@@ -1,0 +1,186 @@
+*{
+	box-sizing: border-box;
+ }
+
+body{
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+header{
+	background-color: #333;
+	height: 3em;
+	color: #FFF;
+	margin-bottom: 1em;
+	font-size: 20px;
+}
+
+header h1{
+	font-size: 20;
+	display:inline-block;
+	vertical-align:	middle;
+}
+header h2{
+	font-size: 2em;
+	display:inline-block;
+	vertical-align:	middle;
+}
+
+header .container:before{
+	content: '';
+	display:inline-block;
+	height: 100%;
+	vertical-align:	middle;
+}
+
+.container{
+	width: 80%;
+	height: 90%;
+	margin: 0 auto;
+}
+
+section{
+	margin: 2em 0;
+	overflow: hidden;
+}
+
+section h2{
+	font-size: 2em;
+	display: block;
+	padding-bottom: .5em;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: .5em;
+	margin-top: .5em;
+}
+
+table{
+	width: 80%;
+	margin: 2em 7em;
+	margin-bottom : 3em;
+    table-layout: fixed;
+
+}
+
+td, th {
+	padding: .7em;
+	margin: 0;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+th{
+	font-size: 1.4em;
+	font-weight: bold;
+	background-color: #EEE;
+	
+}
+
+label{
+	color: #555;
+	display: block;
+	margin-bottom: .2em;
+}
+
+.campo{
+	margin: 0;
+	padding-bottom: 1em;
+	width: 100%;
+	border: 1px solid #ccc;
+	padding: .7em;
+	width: 100%;
+}
+
+.campo-medio{
+	display: inline-block;
+	
+}
+
+.grupo{
+	width: 69%;
+	display: inline-block;
+	padding: 0px 80px 0px 0px;
+}
+.grupo2{
+	width: 30%;
+	display: inline-block;
+	padding: 20px 0px;
+}
+
+.bto-principal{
+	padding: .5em ;
+	border: 0;
+	border-bottom: 3px solid;
+	font-size: 1.2em;
+	cursor: pointer;
+	margin: 100;
+	margin-top: 3px;
+	color: #fff;
+	background-color:#0c8cd3;
+	border-color: #04324c;
+	width: 20%;
+    clear: both;
+    margin: 20px 180px 00px 0px;
+
+}
+.bto-principal2{
+	padding: .5em;
+	border: 0;
+	border-bottom: 3px solid;
+	font-size: 1.2em;
+	cursor: pointer;
+	margin: 100;
+	color: #fff;
+	background-color:#0c8cd3;
+	border-color: #04324c;
+	width: 20%;    
+    clear: both;
+    margin: 20px 50px 30px 195px;
+
+}
+
+.bto-principal:active{	
+	background-color: #04324c;	
+	font-weight: bold;
+}
+
+.bto-principal2:active{
+	font-weight: bold;
+	background-color: #04324c;
+	
+}
+
+.adicionar-paciente{
+    margin-top: 20px;
+}
+
+.campo-invalido{
+	border: 1px solid red;
+}
+
+.paciente-invalido {
+	background-color: lightcoral;
+}
+
+#mensagens-erro {
+	color: red;
+	
+	margin-bottom: 15px;
+}
+
+.fadeOut {
+	color: red;
+	opacity: 0;
+	transition: 0.5s;
+	
+}
+
+#filtrar-tabela {
+	width: 200px;
+	height: 35px;
+	margin-bottom: 10px;
+}
+
+.invisivel {
+	display: none;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Urna Eletronica</title>	
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+	</head>
+		<header>
+			<div class="container">
+				<h2 class="titulo"> Urna Eletrônica </h2>
+			</div>
+		</header>
+	<body>
+		<section class="container">
+			<h2>Candidatos</h2>
+			<table>
+				<thead>
+					<tr>
+						<th>Nome</th>
+						<th>Partido</th>
+						<th>Sigla</th>
+						<th>Votos</th>
+						</tr>
+				</thead>
+				<tbody id="tabela-candidato">				
+						<tr class="cadidato" >
+						<td class="info-nome">Alexandre</td>
+						<td class="info-parido">Trabalhadores</td>
+						<td class="info-sigla">PT</td>
+						<td class="info-voto">10</td>						
+						</tr>
+					<tr class="candidato" >
+						<td class="info-nome">Luciano</td>
+						<td class="info-partido">Democratas</td>
+						<td class="info-sigla">DEM</td>
+						<td class="info-voto">15</td>
+					</tr>
+				</tbody>		
+			</table>
+			<button id="votar-candidato" class="bto-principal2">Votar</button>
+			<button id="deletar-candidato" class="bto-principal2">Deletar</button>
+		</section>
+		<section class="container">
+		    <h2 id="titulo-form">Adicionar novo Candidato</h2>			
+			<ul id="mensagens-erro"></ul>			
+		    <form id="form-adiciona">
+		        <div class="">
+		            <label for="nome">Nome:</label>
+		            <input id="nome" name="nome" type="text" placeholder="digite o nome do Candidato" class="campo">
+		        </div>
+		        <div class="grupo">
+		            <label for="partido">Partido:</label>
+		            <input id="paritdo" name="partido" type="text" placeholder="digite o partido do Candidato" class="campo campo-medio">
+		        </div>
+		        <div class="grupo2">
+		            <label for="sigla">Sigla:</label>
+		            <input id="sigla" name="sigla" type="text" placeholder="digite a sigla do partido" class="campo campo-medio">
+		        </div>
+		        <button id="adicionar-candidato" class="bto-principal">Adicionar </button>						
+		    </form>
+		</section>
+		<script src="js/form.js" ></script>	
+		<script src="js/Votar.js" ></script>	
+		<script src="js/Deletar.js" ></script>
+	</body>
+</html>
