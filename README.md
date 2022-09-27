@@ -1,4 +1,4 @@
-## htmlUrna
+# htmlUrna
 
 - Simples projeto de Cadastro com formulario, voce consegue adicionar e deletar novos candidatos, alem de votar nos mesmos.
 
@@ -7,7 +7,9 @@
 - Falta alguns detalhes para deixar visualmente mais agradavel, mas a intenção é demonstrar a funcionalidade
 
 
-# Modelo do Site
+## Modelo do Site
+
+![myimage-alt-tag](https://github.com/LucianoDSMiranda/htmlUrna/blob/main/urna%20html/Modelo.png)
 
 
 
